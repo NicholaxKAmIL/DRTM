@@ -13,10 +13,11 @@ int main(){
 	//function output 51~100
 	
 	int i=51,j;
-	for(i=51;j<=99;i++){
+	for(i=500;j<=599;i++){
 		j=i;
-		cout<<j<<endl;
+		cout<<j<<" ";
 	}
+	printf("\n");
 	 
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
