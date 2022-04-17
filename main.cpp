@@ -1,30 +1,28 @@
 #include<iostream>
 
 using namespace std;
+
 int main(){
 	cout<<"hello world!"<<endl;
 	cout<<"THE MAIN"<<endl;
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
-	//function 99乘法表 
-	
-	//
+	int j = 0;
+	for(int i = 2; i <= 100; i++){
+		j = 0;
+		for(int k = i; k > 0; k--){
+			if(i%k == 0){
+				j = j + k;
+			}
+		}
+		if(j == i+1){
+			cout<<i<<endl;
+		}
+	}
+
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
 	
-	int i,j,e=0;
-	for(j=2;j<=99;j++){
-		e=0;
-	    for(i=2;i<j;i++){    
-		    if(j%i==0){
-		        e=1;
-		    }
-	    }
-	    if(e==0){
-	        cout<<j<<",";
-	    }
-    }
-	 
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 的質數 
@@ -32,3 +30,5 @@ int main(){
 	//
 	system("pause");
 }
+
+
