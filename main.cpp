@@ -6,7 +6,7 @@ int main(){
 	cout<<"THE MAIN"<<endl;
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
-	cout<<"KK:"<<""<<endl;
+	cout<<"KK:"<<"asdfjk;"<<endl;
 	cout<<"WT:"<<"Hello:)"<<endl;
 	
 	
