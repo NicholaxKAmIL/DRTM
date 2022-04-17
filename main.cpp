@@ -7,7 +7,7 @@ int main(){
 	
 	cout<<"MB:"<<""<<endl;
 	cout<<"KK:"<<""<<endl;
-	cout<<"WT:"<<""<<endl;
+	cout<<"WT:"<<"Hello:)"<<endl;
 	
 	
 	system("pause");
