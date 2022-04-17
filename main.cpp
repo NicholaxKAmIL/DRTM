@@ -7,7 +7,16 @@ int main(){
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
 	//function 99­¼ªkªí 
-	
+	for(int i = 1; i < 10; i++){
+		cout<<i<<" ";
+		for(int k = 1; k < 10; k++){
+			if(i*(k-1)<10){
+				cout<<" ";
+			}
+			cout<<i*k<<" ";
+		}
+		cout<<endl;
+	}
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
