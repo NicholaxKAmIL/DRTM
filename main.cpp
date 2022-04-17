@@ -6,20 +6,16 @@ int main(){
 	cout<<"THE MAIN"<<endl;
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
-	//function output 1~50 
+	//function 99乘法表 
 	
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
-	
+	'
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
-	//function output 101~150
-	int n = 100;
-	for(int i; i < 51; i ++){
-		n = n + 1;
-		cout<<n<<endl;
-	}
+	//function output 1~100 的質數 
+	
 	//
 	system("pause");
 }
