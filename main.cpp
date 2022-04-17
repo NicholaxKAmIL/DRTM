@@ -7,7 +7,10 @@ int main(){
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
 	//function output 1~50 
-	
+	for(int i = 1; i < 50; i++){
+		cout<<i<<", ";
+	}
+	cout<<"50"<<endl;
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
