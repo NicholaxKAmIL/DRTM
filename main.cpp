@@ -1,30 +1,28 @@
 #include<iostream>
 
-int temp;
-int maxF;//max fibonacchi number
-
 using namespace std;
-
-int fibonacchiSq(int num1, int num2){
-	temp = num1 + num2;
-	if(temp <= maxF){
-		cout<<temp<<endl;
-		fibonacchiSq(num2, temp);
-	}
-}
 
 int main(){
 	cout<<"hello world!"<<endl;
 	cout<<"THE MAIN"<<endl;
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
-	cout<<"Input Max Fibonacchi Number: ";
-	cin>>maxF;
-	fibonacchiSq(0, 1);
+	int j = 0;
+	for(int i = 2; i <= 100; i++){
+		j = 0;
+		for(int k = i; k > 0; k--){
+			if(i%k == 0){
+				j = j + k;
+			}
+		}
+		if(j == i+1){
+			cout<<i<<endl;
+		}
+	}
 
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
-	'
+	
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 ªº½è¼Æ 
