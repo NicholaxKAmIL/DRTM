@@ -1,28 +1,34 @@
 #include<iostream>
 
 using namespace std;
+
 int main(){
 	cout<<"hello world!"<<endl;
 	cout<<"THE MAIN"<<endl;
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
-	//function output 1~50 
-	for(int i = 1; i < 50; i++){
-		cout<<i<<", ";
+	int j = 0;
+	for(int i = 2; i <= 100; i++){
+		j = 0;
+		for(int k = i; k > 0; k--){
+			if(i%k == 0){
+				j = j + k;
+			}
+		}
+		if(j == i+1){
+			cout<<i<<endl;
+		}
 	}
-	cout<<"50"<<endl;
-	//
+
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
 	
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
-	//function output 101~150
-	int n = 100;
-	for(int i; i < 51; i ++){
-		n = n + 1;
-		cout<<n<<endl;
-	}
+	//function output 1~100 ªº½è¼Æ 
+	
 	//
 	system("pause");
 }
+
+
