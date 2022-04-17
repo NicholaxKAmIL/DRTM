@@ -6,18 +6,18 @@ int main(){
 	cout<<"THE MAIN"<<endl;
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
-	//function 99­¼ªkªí 
-	for(int i = 1; i < 10; i++){
-		cout<<i<<" ";
-		for(int k = 1; k < 10; k++){
-			if(i*(k-1)<10){
-				cout<<" ";
+	int j = 0;
+	for(int i = 1; i <= 10000; i++){
+		j = 0;
+		for(int k = i - 1; k > 0; k--){
+			if(i%k == 0){
+				j = j + k;
 			}
-			cout<<i*k<<" ";
 		}
-		cout<<endl;
+		if(j == i){
+			cout<<i<<endl;
+		}
 	}
-	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
 	'
