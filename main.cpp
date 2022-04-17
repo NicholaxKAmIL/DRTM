@@ -11,7 +11,20 @@ int main(){
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
-	'
+	
+	int i,j,e=0;
+	for(j=2;j<=99;j++){
+		e=0;
+	    for(i=2;i<j;i++){    
+		    if(j%i==0){
+		        e=1;
+		    }
+	    }
+	    if(e==0){
+	        cout<<j<<",";
+	    }
+    }
+	 
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 ªº½è¼Æ 
