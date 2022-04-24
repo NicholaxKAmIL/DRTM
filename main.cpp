@@ -2,8 +2,8 @@
 #include<string>
 #include"sayHi.h"
 #include"mathFunctions.h"
-
-
+#include"Number_Printer.h"
+#include"primeNumber.h"
 using namespace std;
 int main(){
 	
@@ -20,6 +20,8 @@ int main(){
 	fibonacchiSq(0,1,250);
 	halfPerfectNum(10000);
 	timeTables();
+	print_Numbers(1,50);
+	primeNumber(); 
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
