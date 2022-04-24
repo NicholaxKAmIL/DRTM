@@ -13,10 +13,10 @@ int main(){
 	//
 	cout<<"KK:"<<"Kirk Kao"<<endl;
 	//function output 51~100
-		print_Numbers(100,222);
+		print_Numbers(51,60);
 		SayHallo();
 		SayNameHallo("Kirk Kao");
-		SayNameHalloWithIf("");
+		SayNameHalloWithIf("Kirk");
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 ªº½è¼Æ 
