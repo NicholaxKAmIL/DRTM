@@ -1,3 +1,4 @@
 *.h.gch
 *.exe
-sayHi.h
+*.gch
+*.OUT
