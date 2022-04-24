@@ -1,9 +1,15 @@
 #include<iostream>
-#include "Number_Printer.h"
-#include "SayHi.h"
+#include<string>
+#include"sayHi.h"
+
+#include"Number_printer.h"
 
 using namespace std;
 int main(){
+	
+	if(SayNameHelloWithIf("NININININI")){
+		SayHello();
+	}
 	
 	cout<<"THE MAIN"<<endl;
 	
@@ -11,12 +17,9 @@ int main(){
 	//function 99乘法表 
 	
 	//
-	cout<<"KK:"<<"Kirk Kao"<<endl;
+	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
-		print_Numbers(51,60);
-		SayHallo();
-		SayNameHallo("Kirk Kao");
-		SayNameHalloWithIf("Kirk");
+	 print_Numbers(1,20);
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 的質數 
