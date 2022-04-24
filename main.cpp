@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 #include"sayHi.h"
-
+#include"mathFunctions.h"
 
 
 using namespace std;
@@ -15,7 +15,11 @@ int main(){
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
 	//function 99­¼ªkªí 
-	
+	prime(250);
+	cout<<"Fibonacchi Sequence:"<<endl<<endl;
+	fibonacchiSq(0,1,250);
+	halfPerfectNum(10000);
+	timeTables();
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
