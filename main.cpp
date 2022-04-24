@@ -1,6 +1,11 @@
 #include<iostream>
+<<<<<<< Updated upstream
 #include"header.h"
 
+=======
+#include"greet.h"
+#include<string>
+>>>>>>> Stashed changes
 using namespace std;
 
 int main(){
@@ -9,6 +14,7 @@ int main(){
 	cout<<"THE MAIN"<<endl;
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
+<<<<<<< Updated upstream
 	int j = 0;
 	for(int i = 2; i <= 100; i++){
 		j = 0;
@@ -23,6 +29,14 @@ int main(){
 	}
 	print();
 
+=======
+	//function 99­¼ªkªí 
+	greet();
+	if(greetWithNameAndAnoDetect(name())){
+		cout<<endl<<endl<<endl<<"bruh"<<endl<<endl<<endl;
+	}
+	//
+>>>>>>> Stashed changes
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
 	
