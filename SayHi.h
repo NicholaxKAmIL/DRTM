@@ -1,22 +1,20 @@
 #include<iostream>
 #include<string>
-
 using namespace std;
 
-int SayHallo(){
+int SayHello(){
 	cout<<"Hello World!"<<endl;
 }
 
-int SayNameHallo(string Name){
-	cout<<"Hello "<<Name<<"!"<<endl;
+int SayNameHello(string name){
+	cout<<"Hello "<<name<<"!"<<endl;
 }
 
-int SayNameHalloWithIf(string Name){
-	if(Name.size()==0){
-		cout<<"Error:No Value in Var. * Name *"<<endl;
+int SayNameHelloWithIf(string name){
+	if(name.size()==0){ 
+		cout<<"Error: No Value in Var. Name."<<endl<<endl;
 		return 0;
 	}
-	cout<<"Hallo "<<Name<<"!"<<endl;
+	cout<<"Hello "<<name<<"!"<<endl;
 	return 1;
-	
 }
