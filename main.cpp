@@ -2,7 +2,7 @@
 #include<string>
 #include"sayHi.h"
 
-
+#include"Number_printer.h"
 
 using namespace std;
 int main(){
@@ -19,7 +19,7 @@ int main(){
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
-	 
+	 print_Numbers(1,20);
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 ªº½è¼Æ 
