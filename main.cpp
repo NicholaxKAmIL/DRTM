@@ -11,6 +11,7 @@ int main(){
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
+<<<<<<< Updated upstream
 	
 	int i,j,e=0;
 	for(j=2;j<=99;j++){
@@ -25,6 +26,14 @@ int main(){
 	    }
     }
 	 
+=======
+	int i[99],j,l=0;
+	for(j=1;j<=99;j++){
+		if(j%2+j%3+j%5+j%7==0||j==2||j==3||j==5||j==7){
+			cout<<j<<","<<endl;
+		}
+	}
+>>>>>>> Stashed changes
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 ªº½è¼Æ 
