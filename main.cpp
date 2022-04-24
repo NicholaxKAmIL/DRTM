@@ -1,8 +1,14 @@
 #include<iostream>
+#include<string>
+#include"sayHi.h"
 
 using namespace std;
 int main(){
-	cout<<"hello world!"<<endl;
+	
+	if(SayNameHelloWithIf("NININININI")){
+		SayHello();s
+	}
+	
 	cout<<"THE MAIN"<<endl;
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
