@@ -1,3 +1,11 @@
-*.h.gch
+*.gch
 *.exe
 sayHi.h
+*.gch
+*.gch
+SayHi.h.gch
+sayHello.h.gch
+primeNumber.h.gch
+Number_Printer.h.gch
+mathFunctions.h.gch
+SayHi.h~merged
