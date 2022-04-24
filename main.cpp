@@ -1,7 +1,17 @@
 #include<iostream>
+#include<string>
+#include"SayHi.h"
+#include"primeNumber.h"
 
 using namespace std;
 int main(){
+	SayHello();
+	SayNameHello("Winnie");
+	
+	SayNameHelloWithIf("Winnie");
+	
+	if(1)if(true)if(1==1)if(1>0)cout<<"That all TRUE!"<<endl;
+	
 	cout<<"hello world!"<<endl;
 	cout<<"THE MAIN"<<endl;
 	
@@ -15,18 +25,7 @@ int main(){
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 ªº½è¼Æ 
-	int flag; 
-	for (int n = 2; n <= 100; n++){
-		flag = 0;
-	    for(int i = 2; i < n; i++)  {  
-	        if(n % i == 0){  
-	            flag = 1;  
-	        }  
-	    }  
-	    if(flag==0){
-	        cout<<n<<endl;    
-	    }  
-	}
+	primeNumber();
 	//
 	system("pause");
 }
