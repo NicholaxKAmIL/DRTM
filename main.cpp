@@ -6,7 +6,7 @@ using namespace std;
 int main(){
 	
 	if(SayNameHelloWithIf("NININININI")){
-		SayHello();s
+		SayHello();
 	}
 	
 	cout<<"THE MAIN"<<endl;
