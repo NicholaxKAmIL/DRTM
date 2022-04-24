@@ -1,8 +1,10 @@
 #include<iostream>
+#include"header.h"
 
 using namespace std;
 
 int main(){
+	
 	cout<<"hello world!"<<endl;
 	cout<<"THE MAIN"<<endl;
 	
@@ -19,6 +21,7 @@ int main(){
 			cout<<i<<endl;
 		}
 	}
+	print();
 
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
