@@ -1,23 +1,16 @@
 #include<iostream>
 #include<string>
-#include"SayHi.h"
-<<<<<<< Updated upstream
-#include"primeNumber.h"
-=======
+#include"sayHi.h"
 
-#include"sayHello.h"
->>>>>>> Stashed changes
+#include"Number_printer.h"
 
 using namespace std;
 int main(){
-	SayHello();
-	SayNameHello("Winnie");
 	
-	SayNameHelloWithIf("Winnie");
+	if(SayNameHelloWithIf("NININININI")){
+		SayHello();
+	}
 	
-	if(1)if(true)if(1==1)if(1>0)cout<<"That all TRUE!"<<endl;
-	
-	cout<<"hello world!"<<endl;
 	cout<<"THE MAIN"<<endl;
 	
 	cout<<"MB:"<<"asd;lfjksfd"<<endl;
@@ -26,15 +19,11 @@ int main(){
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
-	
+	 print_Numbers(1,20);
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 ªº½è¼Æ 
-<<<<<<< Updated upstream
-	primeNumber();
-=======
-
->>>>>>> Stashed changes
+	
 	//
 	system("pause");
 }
