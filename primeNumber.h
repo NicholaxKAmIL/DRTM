@@ -1,11 +1,5 @@
 #include<iostream>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 using namespace std;
 
 int primeNumber(){
@@ -22,13 +16,4 @@ int primeNumber(){
 	    }  
 	}
 }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
-
-
-
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
