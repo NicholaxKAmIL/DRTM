@@ -11,7 +11,7 @@ int main(){
 	//
 	cout<<"KK:"<<"asdfjk;"<<endl;
 	//function output 51~100
-	'
+	 
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 ªº½è¼Æ 
