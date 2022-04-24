@@ -1,7 +1,12 @@
 #include<iostream>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #include"header.h"
 
+=======
+#include"greet.h"
+#include<string>
+>>>>>>> Stashed changes
 =======
 #include"greet.h"
 #include<string>
