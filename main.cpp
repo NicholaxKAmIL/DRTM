@@ -1,12 +1,7 @@
 #include<iostream>
 #include<string>
 #include"SayHi.h"
-<<<<<<< Updated upstream
 #include"primeNumber.h"
-=======
-
-#include"sayHello.h"
->>>>>>> Stashed changes
 
 using namespace std;
 int main(){
@@ -30,11 +25,7 @@ int main(){
 	//
 	cout<<"WT:"<<"Hello:)"<<endl;
 	//function output 1~100 ªº½è¼Æ 
-<<<<<<< Updated upstream
 	primeNumber();
-=======
-
->>>>>>> Stashed changes
 	//
 	system("pause");
 }
