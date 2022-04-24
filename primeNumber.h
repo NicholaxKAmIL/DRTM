@@ -1,32 +1,6 @@
 #include<iostream>
 
 using namespace std;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int primeNumber(){
 	int flag; 
 	for (int n = 2; n <= 100; n++){
